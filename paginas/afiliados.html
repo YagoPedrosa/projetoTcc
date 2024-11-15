@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/navLateral.css">
+    <link rel="stylesheet" href="/css/afiliados.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-lateral">
+            <div class="logotipo">
+                <div>
+                    <img src="/img/Logotipo IDC 01.png" alt="logotipo IDC">
+                </div>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html" class="nav-button"><i></i>Inicio</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/cadastroAfiliado.html" class="nav-button"><i></i>Cadastro</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/afiliados.html" class="nav-button"><i></i>Afiliados</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html"  class="nav-button"><i></i>Pagamento</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html"  class="nav-button"><i></i>Configurações</a>
+            </div>
+        </div>
+        <div class="btn-sair">
+            <a href="/index.html"><button type="button">Sair</button></a>
+        </div>
+    </nav>
+    <main>
+        <section class="section1">
+            <div class="afiliados">
+                <div><h1>Consulta de Afiliados</h1></div>
+                <div>
+                    <input type="text" id="searchBar" placeholder="Pesquisar afiliado..." onkeyup="filterAffiliatesName()">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <ul id="affiliatesList">
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+        <!-- Scripts do Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+        
+        <!-- Seu script -->
+        <script src="/script/afiliados.js"></script>
+        
+</body>
+</html>

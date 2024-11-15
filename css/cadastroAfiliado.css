@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* Conteúdo Página */
+
+main{
+    margin-left: 260px;
+}
+
+.section1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}   
+
+.section1 h1{
+    color: rgb(9, 27, 77);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.cadastroAfiliado{
+    background-color: rgb(255, 187, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 30px;
+    align-items: end;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.campos{
+    display: grid;
+    text-align: left;
+    column-gap: 10px;
+}
+
+label{
+    color: rgb(9, 27, 77);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input{
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #ffae00;
+}
+
+select{
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(9, 27, 77);
+    font-weight: 600;
+}
+
+.btn-submit{
+    cursor: pointer;
+    margin-top: 15px;
+    width: -webkit-fill-available;
+    padding: 15px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.btn-submit:hover{
+    transition-duration: 300ms;
+    background-color: rgb(14, 163, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.btn-submit:active{
+    background-color: rgb(14, 163, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}

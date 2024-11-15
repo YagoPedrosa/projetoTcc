@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 1900px;
+}
+
+/* Conteúdo Página */
+
+main{
+    margin-left: 260px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+section div h1{
+    color: rgb(9, 27, 77);
+    font-weight: 800;
+}
+
+.box1, .box2{
+    height: 400px;
+    width: 700px;
+    margin: 20px;
+}
+
+.box3{
+    height: 400px;
+    width: 1440px;
+    margin: 20px;
+}

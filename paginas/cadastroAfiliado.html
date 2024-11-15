@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/navLateral.css">
+    <link rel="stylesheet" href="/css/cadastroAfiliado.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-lateral">
+            <div class="logotipo">
+                <div>
+                    <img src="/img/Logotipo IDC 01.png" alt="logotipo IDC">
+                </div>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html" class="nav-button"><i></i>Inicio</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/cadastroAfiliado.html" class="nav-button"><i></i>Cadastro</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/afiliados.html" class="nav-button"><i></i>Afiliados</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html"  class="nav-button"><i></i>Pagamento</a>
+            </div>
+            <div class="paginas-nav">
+                <a href="/paginas/painel-controle.html"  class="nav-button"><i></i>Configurações</a>
+            </div>
+        </div>
+        <div class="btn-sair">
+            <a href="/index.html"><button type="button">Sair</button></a>
+        </div>
+    </nav>
+    <main>
+        <section class="section1">
+            <div class="cadastroAfiliado"><h1>Formulário de Cadastro</h1></div>
+            <form id="cadastroForm">
+                <div class="container1">
+
+                    <div class="campos" style="width: 30%;">
+                        <label for="nomeCompleto">Nome</label>
+                        <input type="text" id="nomeCompleto" name="nomeCompleto">
+                    </div>
+                    <div class="campos">
+                        <label for="dataNascimento">Data de Nascimento</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento">
+                    </div>
+                    <div class="campos">
+                        <label for="nacionalidade">Nacionalidade</label>
+                        <select name="nacionalidade" id="nacionalidade">
+                            <option value="Brasileiro">Brasileiro</option>
+                        </select>
+                    </div>
+                    <div class="campos">
+                        <label for="estadoCivil">Estado Civil</label>
+                        <select name="estadoCivil" id="estadoCivil">
+                            <option value="Solteiro">Solteiro</option>
+                            <option value="Casado">Casado</option>
+                            <option value="Viúvo">Viúvo</option>
+                        </select>
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="nomeMae">Nome da Mãe</label>
+                        <input type="text" id="nomeMae" name="nomeMae">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="profissao">Profissão</label>
+                        <input type="text" id="profissao" name="profissao">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="CPF">CPF</label>
+                        <input type="text" id="CPF" name="CPF">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="RG">RG</label>
+                        <input type="text" id="RG" name="RG">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" name="endereco">
+                    </div>
+                    <div class="campos">
+                        <label for="numero">Número</label>
+                        <input type="text" id="numero" name="numero">
+                    </div>
+                    <div class="campos">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro">
+                    </div>
+                    <div class="campos">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="campos">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" name="estado">
+                    </div>
+                    <div class="campos">
+                        <label for="CEP">CEP</label>
+                        <input type="text" id="CEP" name="CEP">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="campos" style="width: 30%;">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+                <div class="container1">
+                    <div>
+                        <label for="janeiro">Janeiro</label>
+                        <input type="checkbox" name="Janeiro" id="janeiro">
+                    </div>
+                    <div class="meses">
+                        <label for="fevereiro">Fevereiro</label>
+                        <input type="checkbox" name="Fevereiro" id="fevereiro">
+                    </div>
+                    <div class="meses">
+                        <label for="marco">Março</label>
+                        <input type="checkbox" name="Março" id="marco">
+                    </div>
+                    <div class="meses">
+                        <label for="abril">Abril</label>
+                        <input type="checkbox" name="Abril" id="abril">
+                    </div>
+                    <div class="meses">
+                        <label for="maio">Maio</label>
+                        <input type="checkbox" name="Maio" id="maio">
+                    </div>
+                    <div class="meses">
+                        <label for="junho">Junho</label>
+                        <input type="checkbox" name="Junho" id="junho">
+                    </div>
+                    <div class="meses">
+                        <label for="julho">Julho</label>
+                        <input type="checkbox" name="Julho" id="julho">
+                    </div>
+                    <div>
+                        <label for="agosto">Agosto</label>
+                        <input type="checkbox" name="Agosto" id="agosto">
+                    </div>
+                    <div class="meses">
+                        <label for="setembro">Setembro</label>
+                        <input type="checkbox" name="Setembro" id="setembro">
+                    </div>
+                    <div class="meses">
+                        <label for="outubro">Outubro</label>
+                        <input type="checkbox" name="Outubro" id="outubro">
+                    </div>
+                    <div class="meses">
+                        <label for="novembro">Novembro</label>
+                        <input type="checkbox" name="Novembro" id="novembro">
+                    </div>
+                    <div class="meses"> <label for="dezembro"> <input type="checkbox" name="Dezembro" id="dezembro"> <span class="custom-checkbox"></span> Dezembro </label> </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn-submit">CADASTRAR AFILIADO</button>
+                </div>
+            </form> 
+        </section>
+    </main>
+
+    <!-- Scripts do Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    
+    <!-- Seu script -->
+    <script src="/script/cadastroAfiliado.js"></script>
+
+
+</body>
+</html>

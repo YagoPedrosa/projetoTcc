@@ -1,0 +1,51 @@
+nav{
+    position: fixed;
+    background-color: rgb(9, 27, 77);
+    margin: 0;
+    height: 100vh;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    padding: 80px 30px 80px 30px;
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+.paginas-nav{
+    border-bottom: 2px solid rgb(27, 46, 100);
+
+}
+
+.nav-button{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.nav-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 27, 77);
+}
+
+.btn-sair button{
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(9, 27, 77);
+    text-align: left;
+    padding: 20px;
+    width: -webkit-fill-available;
+    margin-top: 270px;
+    background-color: rgb(255, 187, 0);
+}
+
+.btn-sair button:hover{
+    background-color: rgb(255, 166, 0);
+}
